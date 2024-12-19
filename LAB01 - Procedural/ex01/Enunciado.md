@@ -7,7 +7,9 @@ Para isso, abra um editor de texto qualquer (e não uma IDE java) e programe no 
 Compile usando javac e rode usando java, como mostrado abaixo
 
 > javac HelloWorld.java
+
 > dir (para vc ver o arquivo .class que foi criado)
+
 > java <nome do arquivo .class criado>
 
 Para comprovação de realização da atividade, tire um print da tela e salve em formato png
