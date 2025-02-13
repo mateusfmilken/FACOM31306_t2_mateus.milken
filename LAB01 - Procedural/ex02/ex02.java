@@ -21,15 +21,15 @@ public class ex02{
     }
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         String[] nome = new String[4];
         float[] preco = new float[4];
         int[] qtdEstoque = new int[4];
 
         for (int i = 0; i < 4; i++) {
             System.out.println("\nInforme o nome, o preço e a quantidade em estoque do produto:");
-            nome[i] = scanner.next();
-            preco[i] = scanner.nextFloat();
+            nome[i] = sc.next();
+            preco[i] = sc.nextFloat();
             qtdEstoque[i] = scanner.nextInt();
         }
 
@@ -56,6 +56,6 @@ public class ex02{
             System.out.printf("\nProduto: %s\nPreço: %.2f\nEstoque: %d\n", nome[i], preco[i], qtdEstoque[i]);
         }
 
-        scanner.close();
+        sc.close();
     }
 }
