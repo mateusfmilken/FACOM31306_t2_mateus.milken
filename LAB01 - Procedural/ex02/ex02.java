@@ -2,14 +2,6 @@ import java.util.Scanner;
 
 public class ex02{
 
-    // Método alteraPreco
-    // Desc: modifica o preço de um produto
-    // Entrada:
-    //    preco: preço do produto
-    //    porcentagem: valor percentual a ser alterado, podendo ser negativo para diminuir valores
-    // Retorno:
-    //    true - sucesso
-    //    false - erro
     public static boolean alteraPreco(float[] preco, int index, float porcentagem) {
         if (porcentagem > -100) {
             float temp = 1 + porcentagem / 100;
