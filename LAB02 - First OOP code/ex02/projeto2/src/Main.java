@@ -4,7 +4,6 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Criando candidatos sem construtor
         Candidato c1 = new Candidato();
         c1.setNomeC("Adenildo José Leodino da Silva");
         c1.setDataNasc("29/12/1995");
@@ -35,7 +34,6 @@ public class Main {
         System.out.println("Matrícula: 12321BCC021\nCódigo: 021");
         System.out.println("Município: Colônia Leopoldina 2702108");
 
-        // Exibindo informações iniciais
         c1.exibirInfo();
         c2.exibirInfo();
         c3.exibirInfo();
@@ -48,7 +46,7 @@ public class Main {
             if (resposta.equalsIgnoreCase("s")) {
                 System.out.print("Qual candidato deseja alterar? (1, 2 ou 3): ");
                 int escolha = scanner.nextInt();
-                scanner.nextLine(); // Consumir a quebra de linha pendente
+                scanner.nextLine(); 
 
                 Candidato candidatoSelecionado;
                 if (escolha == 1) {
@@ -74,7 +72,7 @@ public class Main {
 
                 System.out.print("Novo valor de bens: R$");
                 candidatoSelecionado.setBens(scanner.nextDouble());
-                scanner.nextLine(); // Consumir a quebra de linha pendente
+                scanner.nextLine(); 
 
                 System.out.print("Nova situação de reeleição (sim/não): ");
                 String reeleicaoInput = scanner.nextLine();
@@ -82,7 +80,7 @@ public class Main {
 
                 System.out.print("Novo número do partido: ");
                 candidatoSelecionado.setNumeroPartido(scanner.nextInt());
-                scanner.nextLine(); // Consumir a quebra de linha pendente
+                scanner.nextLine(); 
 
                 System.out.print("Novo cargo: ");
                 candidatoSelecionado.setCargo(scanner.nextLine());
