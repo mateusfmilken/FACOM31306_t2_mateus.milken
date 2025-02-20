@@ -7,32 +7,32 @@ public class Candidato {
     private int numeroPartido;
     private String cargo;
 
-    public void setNomeC(String nomeC) {
-        this.nomeC = nomeC;
+    public void setNomeC(String nomec) {
+        nomeC = nomec;
     }
 
-    public void setDataNasc(String dataNasc) {
-        this.dataNasc = dataNasc;
+    public void setDataNasc(String datanasc) {
+        dataNasc = datanasc;
     }
 
-    public void setGenero(String genero) {
-        this.genero = genero;
+    public void setGenero(String Genero) {
+        genero = Genero;
     }
 
-    public void setBens(double bens) {
-        this.bens = bens;
+    public void setBens(double Bens) {
+        bens = Bens;
     }
 
-    public void setReeleicao(boolean reeleicao) {
-        this.reeleicao = reeleicao;
+    public void setReeleicao(boolean Reeleicao) {
+        reeleicao = Reeleicao;
     }
 
-    public void setNumeroPartido(int numeroPartido) {
-        this.numeroPartido = numeroPartido;
+    public void setNumeroPartido(int numeropartido) {
+        numeroPartido = numeropartido;
     }
 
-    public void setCargo(String cargo) {
-        this.cargo = cargo;
+    public void setCargo(String Cargo) {
+        cargo = Cargo;
     }
 
     public String getNomeC() {
