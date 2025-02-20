@@ -1,93 +1,42 @@
-public class Candidato {
-    private String nomeC;
-    private String dataNasc;
-    private String genero;
-    private double bens;
-    private boolean reeleicao;
-    private int numeroPartido;
-    private String cargo;
+import java.util.Scanner;
 
-    public void setNomeC(String nomec) {
-        nomeC = nomec;
-    }
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
 
-    public void setDataNasc(String datanasc) {
-        dataNasc = datanasc;
-    }
+        Candidato c1 = new Candidato();
+        c1.setNomeC("Adenildo José Leodino da Silva");
+        c1.setDataNasc("29/12/1995");
+        c1.setGenero("Masculino");
+        c1.setBens(0.00);
+        c1.setReeleicao(false);
+        c1.setNumeroPartido(12);
+        c1.setCargo("Vereador");
 
-    public void setGenero(String Genero) {
-        genero = Genero;
-    }
+        Candidato c2 = new Candidato();
+        c2.setNomeC("Edivan Lucas da Silva");
+        c2.setDataNasc("03/08/1978");
+        c2.setGenero("Masculino");
+        c2.setBens(180000.00);
+        c2.setReeleicao(true);
+        c2.setNumeroPartido(45);
+        c2.setCargo("Vereador");
 
-    public void setBens(double Bens) {
-        bens = Bens;
-    }
+        Candidato c3 = new Candidato();
+        c3.setNomeC("Alexandre Gilberto Sobreira");
+        c3.setDataNasc("18/02/1974");
+        c3.setGenero("Masculino");
+        c3.setBens(71545.05);
+        c3.setReeleicao(false);
+        c3.setNumeroPartido(15);
+        c3.setCargo("Prefeito");
 
-    public void setReeleicao(boolean Reeleicao) {
-        reeleicao = Reeleicao;
-    }
+        System.out.println("Matrícula: 12321BCC021\nCódigo: 021");
+        System.out.println("Município: Colônia Leopoldina 2702108");
 
-    public void setNumeroPartido(int numeropartido) {
-        numeroPartido = numeropartido;
-    }
+        c1.exibirInfo();
+        c2.exibirInfo();
+        c3.exibirInfo();
 
-    public void setCargo(String Cargo) {
-        cargo = Cargo;
-    }
-
-    public String getNomeC() {
-        return nomeC;
-    }
-
-    public String getDataNasc() {
-        return dataNasc;
-    }
-
-    public String getGenero() {
-        return genero;
-    }
-
-    public double getBens() {
-        return bens;
-    }
-
-    public boolean isReeleicao() {
-        return reeleicao;
-    }
-
-    public int getNumeroPartido() {
-        return numeroPartido;
-    }
-
-    public String getCargo() {
-        return cargo;
-    }
-
-    public void atualizarNome(String novoNome) {
-        this.nomeC = novoNome;
-    }
-
-    public void atualizarBens(double novoValorBens) {
-        this.bens = novoValorBens;
-    }
-
-    public void atualizarReeleicao(boolean novaReeleicao) {
-        this.reeleicao = novaReeleicao;
-    }
-
-    public void atualizarCargo(String novoCargo) {
-        this.cargo = novoCargo;
-    }
-
-    public void exibirInfo() {
-        System.out.println("\n-----------------------------");
-        System.out.println("Nome: " + nomeC);
-        System.out.println("Data de nascimento: " + dataNasc);
-        System.out.println("Gênero da pessoa: " + genero);
-        System.out.println("Valor em bens: R$" + bens);
-        System.out.println("Candidato à Reeleição: " + (reeleicao ? "Sim" : "Não"));
-        System.out.println("Número do partido: " + numeroPartido);
-        System.out.println("Cargo pretendido: " + cargo);
-        System.out.println("\n-----------------------------");
     }
 }
