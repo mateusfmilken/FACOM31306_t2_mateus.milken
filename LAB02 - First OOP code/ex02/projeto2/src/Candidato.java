@@ -51,7 +51,7 @@ public class Candidato {
         return bens;
     }
 
-    public boolean isReeleicao() {
+    public boolean vaiReeleicao() {
         return reeleicao;
     }
 
@@ -61,22 +61,6 @@ public class Candidato {
 
     public String getCargo() {
         return cargo;
-    }
-
-    public void atualizarNome(String novoNome) {
-        nomeC = novoNome;
-    }
-
-    public void atualizarBens(double novoValorBens) {
-        bens = novoValorBens;
-    }
-
-    public void atualizarReeleicao(boolean novaReeleicao) {
-        reeleicao = novaReeleicao;
-    }
-
-    public void atualizarCargo(String novoCargo) {
-        cargo = novoCargo;
     }
 
     public void exibirInfo() {
