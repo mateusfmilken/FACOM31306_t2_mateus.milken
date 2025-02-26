@@ -1,21 +1,11 @@
 public class Candidato {
-    private String nomeC;
-    private String dataNasc;
-    private String genero;
-    private double bens;
-    private boolean reeleicao;
-    private int numeroPartido;
-    private String cargo;
-
-    public Candidato(String nomeC, String dataNasc, String genero, double bens, boolean reeleicao, int numeroPartido, String cargo) {
-        this.nomeC = nomeC;
-        this.dataNasc = dataNasc;
-        this.genero = genero;
-        this.bens = bens;
-        this.reeleicao = reeleicao;
-        this.numeroPartido = numeroPartido;
-        this.cargo = cargo;
-    }
+    public String nomeC;
+    public String dataNasc;
+    public String genero;
+    public double bens;
+    public boolean reeleicao;
+    public int numeroPartido;
+    public String cargo;
 
     public void exibirInfo() {
         System.out.println("\n-----------------------------");
