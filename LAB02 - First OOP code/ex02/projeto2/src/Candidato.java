@@ -64,19 +64,19 @@ public class Candidato {
     }
 
     public void atualizarNome(String novoNome) {
-        this.nomeC = novoNome;
+        nomeC = novoNome;
     }
 
     public void atualizarBens(double novoValorBens) {
-        this.bens = novoValorBens;
+        bens = novoValorBens;
     }
 
     public void atualizarReeleicao(boolean novaReeleicao) {
-        this.reeleicao = novaReeleicao;
+        reeleicao = novaReeleicao;
     }
 
     public void atualizarCargo(String novoCargo) {
-        this.cargo = novoCargo;
+        cargo = novoCargo;
     }
 
     public void exibirInfo() {
