@@ -1,6 +1,5 @@
 public class Main {
     public static void main(String[] args) {
-
         Candidato candidato = new Candidato ("Adenildo José Leodino da Silva", "29/12/1995", "Masculino", 0.00, "Não", 12);
         CandidatoVereador c1 = new CandidatoVereador(candidato, "111", "Joaquim Gomes");
         CandidatoPrefeito c2 = new CandidatoPrefeito("Alexandre Gilberto Sobreira", "18/02/1974", "Masculino", 71545.05, "Não", 15, "Luciana Luna", 15);
