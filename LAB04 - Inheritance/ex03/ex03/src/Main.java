@@ -7,6 +7,6 @@ public class Main {
         System.out.println("Município: Colônia Leopoldina");
         System.out.println(c1.toString());
         System.out.println(c2.toString());
-        System.out.println("O erro em toString acontece pois ele não pode receber diretamente os atributos da classe Candidato, então precisamos utilizar o comando super para que ele imprima os atributos de Candidato normalmente, quando eles estão privados.")
+        System.out.println("O erro em toString acontece pois ele não pode receber diretamente os atributos da classe Candidato, então precisamos utilizar o comando super para que ele imprima os atributos de Candidato normalmente, quando eles estão privados.");
     }
 }
