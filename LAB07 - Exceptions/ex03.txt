@@ -1,0 +1,2 @@
+O termo throws delega o tratamento de uma determinada exceção para o método que chamou o atual - public void Método throws Exception - enquanto a palavra throw lança uma exceção dentro do próprio método.
+As unchecked exceptions são as exceções de captura não obrigatória, ou seja, não precisam ser capturadas e tratadas, como todas as da classe RuntimeException, e as checked exceptions são aquelas exceções que precisam ser tratadas e capturadas.
